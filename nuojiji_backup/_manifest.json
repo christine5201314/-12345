@@ -1,6 +1,6 @@
 {
   "version": 6,
-  "timestamp": 1790167249323,
+  "timestamp": 1790167254383,
   "appVersion": "6.9.80 (2026.09.18)",
   "tables": [
     "characters",
@@ -101,8 +101,8 @@
     "_migration"
   ],
   "chunkedTables": {
-    "messages": 10,
-    "ttsAudio": 3
+    "messages": 35,
+    "ttsAudio": 1
   },
   "completedTables": {
     "characters": true,
@@ -116,17 +116,15 @@
     "chatSettings": true,
     "favorites": true,
     "memory": true,
-    "summaryEntries": true,
     "callLogs": true,
     "roleStickers": true,
+    "tmSessions": true,
     "tmStories": true,
-    "multiSceneSessions": true,
     "multiSceneStories": true,
     "multiSceneCastSettings": true,
     "multiSceneSessionSettings": true,
     "multiSceneSessionSummaries": true,
     "customNoises": true,
-    "customBgm": true,
     "flashMoments": true,
     "groupSettings": true,
     "userLinks": true,
@@ -135,9 +133,33 @@
     "calendarData": true,
     "customCalendars": true,
     "groupChats": true,
-    "pomodoroSessions": true,
+    "xinsheng": true,
     "couplesData": true,
-    "stickerStore": true
+    "stickerStore": true,
+    "quickReplies": true,
+    "goingOutState": true,
+    "goingOutAreas": true,
+    "goingOutLogs": true,
+    "jiliData": true,
+    "jiliCreators": true,
+    "jiliPosts": true,
+    "jiliDMs": true,
+    "shareLinkMeta": true,
+    "customGameSaves": true,
+    "customWidgetTemplates": true,
+    "customWidgetState": true,
+    "wallpapers": true,
+    "lifeRpgData": true,
+    "whiteDogData": true,
+    "isekaiSaves": true,
+    "isekaiPresets": true,
+    "pomodoroData": true,
+    "regexRules": true,
+    "mcpServers": true,
+    "thinkingStore": true,
+    "commitments": true,
+    "characterLifeState": true,
+    "chikanPhoneSkins": true
   },
   "inProgress": true
 }
