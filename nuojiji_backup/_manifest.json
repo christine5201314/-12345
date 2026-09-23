@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "timestamp": 1790167157826,
-  "appVersion": "auto-backup",
+  "timestamp": 1790167160986,
+  "appVersion": "6.9.80 (2026.09.18)",
   "tables": [
     "characters",
     "friendRequests",
@@ -101,7 +101,8 @@
     "_migration"
   ],
   "chunkedTables": {
-    "messages": 48
+    "messages": 35,
+    "ttsAudio": 1
   },
   "completedTables": {
     "characters": true,
@@ -115,21 +116,37 @@
     "chatSettings": true,
     "favorites": true,
     "memory": true,
-    "summaryEntries": true,
     "callLogs": true,
     "roleStickers": true,
     "tmSessions": true,
     "tmStories": true,
-    "multiSceneSessions": true,
     "multiSceneStories": true,
     "multiSceneCastSettings": true,
     "multiSceneSessionSettings": true,
     "multiSceneSessionSummaries": true,
     "customNoises": true,
-    "customBgm": true,
     "flashMoments": true,
-    "groupSettings": true
+    "groupSettings": true,
+    "userLinks": true,
+    "userMessages": true,
+    "forumData": true,
+    "calendarData": true,
+    "customCalendars": true,
+    "groupChats": true,
+    "xinsheng": true,
+    "couplesData": true,
+    "stickerStore": true,
+    "quickReplies": true,
+    "goingOutState": true,
+    "goingOutAreas": true,
+    "goingOutLogs": true,
+    "jiliData": true,
+    "jiliCreators": true,
+    "jiliPosts": true,
+    "jiliDMs": true,
+    "shareLinkMeta": true,
+    "customGameSaves": true,
+    "customWidgetTemplates": true
   },
-  "source": "auto",
   "inProgress": true
 }
