@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "timestamp": 1790167740300,
-  "appVersion": "auto-backup",
+  "timestamp": 1790169089101,
+  "appVersion": "6.9.80 (2026.09.18)",
   "tables": [
     "characters",
     "friendRequests",
@@ -181,6 +181,5 @@
     "coReadTranslations": true,
     "naiVibeCache": true
   },
-  "source": "auto",
   "inProgress": true
 }
