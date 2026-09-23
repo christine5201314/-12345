@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "timestamp": 1790167147637,
-  "appVersion": "6.9.80 (2026.09.18)",
+  "timestamp": 1790167150599,
+  "appVersion": "auto-backup",
   "tables": [
     "characters",
     "friendRequests",
@@ -101,8 +101,7 @@
     "_migration"
   ],
   "chunkedTables": {
-    "messages": 10,
-    "ttsAudio": 3
+    "messages": 48
   },
   "completedTables": {
     "characters": true,
@@ -119,6 +118,7 @@
     "summaryEntries": true,
     "callLogs": true,
     "roleStickers": true,
+    "tmSessions": true,
     "tmStories": true,
     "multiSceneSessions": true,
     "multiSceneStories": true,
@@ -126,16 +126,8 @@
     "multiSceneSessionSettings": true,
     "multiSceneSessionSummaries": true,
     "customNoises": true,
-    "customBgm": true,
-    "flashMoments": true,
-    "groupSettings": true,
-    "userLinks": true,
-    "userMessages": true,
-    "forumData": true,
-    "calendarData": true,
-    "customCalendars": true,
-    "groupChats": true,
-    "pomodoroSessions": true
+    "customBgm": true
   },
+  "source": "auto",
   "inProgress": true
 }
