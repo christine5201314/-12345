@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "timestamp": 1790167324174,
-  "appVersion": "auto-backup",
+  "timestamp": 1790167329237,
+  "appVersion": "6.9.80 (2026.09.18)",
   "tables": [
     "characters",
     "friendRequests",
@@ -101,7 +101,8 @@
     "_migration"
   ],
   "chunkedTables": {
-    "messages": 48
+    "messages": 10,
+    "ttsAudio": 3
   },
   "completedTables": {
     "characters": true,
@@ -118,7 +119,6 @@
     "summaryEntries": true,
     "callLogs": true,
     "roleStickers": true,
-    "tmSessions": true,
     "tmStories": true,
     "multiSceneSessions": true,
     "multiSceneStories": true,
@@ -131,16 +131,20 @@
     "groupSettings": true,
     "userLinks": true,
     "userMessages": true,
-    "ttsAudio": true,
     "forumData": true,
     "calendarData": true,
     "customCalendars": true,
     "groupChats": true,
-    "xinsheng": true,
     "pomodoroSessions": true,
     "couplesData": true,
-    "stickerStore": true
+    "stickerStore": true,
+    "quickReplies": true,
+    "goingOutState": true,
+    "goingOutAreas": true,
+    "goingOutLogs": true,
+    "jiliData": true,
+    "jiliCreators": true,
+    "jiliPosts": true
   },
-  "source": "auto",
   "inProgress": true
 }
