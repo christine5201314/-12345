@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "timestamp": 1790166714282,
-  "appVersion": "auto-backup",
+  "timestamp": 1790166717426,
+  "appVersion": "6.9.80 (2026.09.18)",
   "tables": [
     "characters",
     "friendRequests",
@@ -101,7 +101,7 @@
     "_migration"
   ],
   "chunkedTables": {
-    "messages": 13
+    "messages": 35
   },
   "completedTables": {
     "characters": true,
@@ -112,8 +112,10 @@
     "users": true,
     "userState": true,
     "userPosts": true,
-    "chatSettings": true
+    "chatSettings": true,
+    "favorites": true,
+    "memory": true,
+    "callLogs": true
   },
-  "source": "auto",
   "inProgress": true
 }
