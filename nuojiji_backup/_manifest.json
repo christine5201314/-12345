@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "timestamp": 1790167638292,
-  "appVersion": "6.9.80 (2026.09.18)",
+  "timestamp": 1790167645482,
+  "appVersion": "auto-backup",
   "tables": [
     "characters",
     "friendRequests",
@@ -101,8 +101,7 @@
     "_migration"
   ],
   "chunkedTables": {
-    "messages": 10,
-    "ttsAudio": 3
+    "messages": 48
   },
   "completedTables": {
     "characters": true,
@@ -119,6 +118,7 @@
     "summaryEntries": true,
     "callLogs": true,
     "roleStickers": true,
+    "tmSessions": true,
     "tmStories": true,
     "multiSceneSessions": true,
     "multiSceneStories": true,
@@ -131,10 +131,12 @@
     "groupSettings": true,
     "userLinks": true,
     "userMessages": true,
+    "ttsAudio": true,
     "forumData": true,
     "calendarData": true,
     "customCalendars": true,
     "groupChats": true,
+    "xinsheng": true,
     "pomodoroSessions": true,
     "couplesData": true,
     "stickerStore": true,
@@ -148,6 +150,7 @@
     "jiliDMs": true,
     "mapRasterCache": true,
     "shareLinkMeta": true,
+    "customGames": true,
     "customGameSaves": true,
     "customWidgetTemplates": true,
     "customWidgetState": true,
@@ -164,11 +167,8 @@
     "characterLifeState": true,
     "chikanPhoneSkins": true,
     "healthEntries": true,
-    "healthProfile": true,
-    "homelandState": true,
-    "fontStore": true,
-    "radioData": true,
-    "novelBooks": true
+    "healthProfile": true
   },
+  "source": "auto",
   "inProgress": true
 }
