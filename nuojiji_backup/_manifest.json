@@ -1,6 +1,6 @@
 {
   "version": 6,
-  "timestamp": 1790166433696,
+  "timestamp": 1790166439337,
   "appVersion": "6.9.80 (2026.09.18)",
   "tables": [
     "characters",
@@ -107,7 +107,8 @@
     "stickers": true,
     "kaomojis": true,
     "users": true,
-    "userState": true
+    "userState": true,
+    "userPosts": true
   },
   "inProgress": true
 }
